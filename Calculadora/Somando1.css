@@ -1,0 +1,114 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pSomar {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.primeira-caixa, .segunda-caixa, .resultado {
+    width: 60px;
+    text-align: center;
+    font-weight: bold; /* Deixa os números em negrito */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos números */
+}
+
+
+body {
+    background-color: #f0f0f0;   /* Cor de fundo */
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.resultado {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 10px; /* Espaçamento inferior para separar o texto da caixa de resultado */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+
+#inputResultado {
+    width: 80%;
+    /* Ajuste este valor conforme necessário */
+    padding: 10px;
+    margin-top: 20px;
+    /* Espaço superior para separar do botão */
+    text-align: center;
+    /* Centraliza o texto dentro da caixa de resultado */
+    margin: 10px 40px;
+    /* Centraliza a caixa de resultado na horizontal */
+    width: 160%;
+    /* Define a largura da caixa de resultado */
+    font-weight: bold; /* Deixa os números em negrito */
+    font-size: 18px; /* Aumenta o tamanho da fonte dos números */
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    background-color: #4d4e4e;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.section:nth-child(odd) {
+    grid-column: 1 / span 1;
+}
+
+.section:nth-child(even) {
+    grid-column: 2 / span 1;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #101110;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #313331;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; /* Ajuste o tamanho conforme desejado */
+}
+
+
+body {
+    background-image: url('https://img.freepik.com/vetores-premium/calculadora-e-fundo-de-lapis_188544-6127.jpg?w=740');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
